@@ -1,0 +1,513 @@
+/* =================================================
+   RESET
+================================================= */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =================================================
+   BODY
+================================================= */
+
+body {
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff0f5,
+            #e6fafc
+        );
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding: 30px 0;
+
+}
+
+
+/* =================================================
+   MAIN CONTAINER
+================================================= */
+
+.container {
+
+    background: #ffffff;
+
+    padding: 35px 30px;
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(160, 170, 180, 0.15);
+
+    width: 90%;
+
+    max-width: 850px;
+
+}
+
+
+/* =================================================
+   TITLE
+================================================= */
+
+h2 {
+
+    color: #5c5470;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+    font-weight: 500;
+
+}
+
+
+.subtitle {
+
+    text-align: center;
+
+    color: #a0a5b5;
+
+    font-size: 13px;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* =================================================
+   FORM
+================================================= */
+
+.form-group {
+
+    margin-bottom: 18px;
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #5c5470;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+}
+
+
+input {
+
+    width: 100%;
+
+    padding: 12px 15px;
+
+    border:
+        2px solid #efeef5;
+
+    border-radius: 14px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    background-color: #faf9fe;
+
+    transition:
+        all 0.3s ease;
+
+}
+
+
+input:focus {
+
+    border-color: #ffd6ff;
+
+    background-color: #ffffff;
+
+    box-shadow:
+        0 0 10px
+        rgba(255, 214, 255, 0.6);
+
+}
+
+
+/* =================================================
+   BUTTON
+================================================= */
+
+.button-group {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 25px;
+
+}
+
+
+.btn {
+
+    flex: 1;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    font-weight: 500;
+
+    transition:
+        all 0.2s ease;
+
+}
+
+
+/* Calculate */
+
+.btn-calc {
+
+    background-color: #bbd0ff;
+
+    color: #4a5568;
+
+}
+
+
+.btn-calc:hover {
+
+    background-color: #b8c0ff;
+
+    transform: scale(1.02);
+
+}
+
+
+/* Save */
+
+.btn-save {
+
+    background-color: #e8c5e5;
+
+    color: #4a5568;
+
+}
+
+
+.btn-save:hover {
+
+    background-color: #ddb4f6;
+
+    transform: scale(1.02);
+
+}
+
+
+/* =================================================
+   RESULT BOX
+================================================= */
+
+.result-box {
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    transition:
+        all 0.3s ease;
+
+}
+
+
+.result-box h3 {
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+    color: #4a5568;
+
+}
+
+
+.result-box p {
+
+    margin-bottom: 5px;
+
+}
+
+
+.highlight {
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    margin: 5px 0;
+
+}
+
+
+.hide-box {
+
+    display: none;
+
+}
+
+
+/* =================================================
+   STATUS COLORS
+================================================= */
+
+.bg-green {
+
+    background-color: #e2f0d9 !important;
+
+    border:
+        2px solid #b4d2a3 !important;
+
+    color: #385d25 !important;
+
+}
+
+
+.bg-yellow {
+
+    background-color: #fff2cc !important;
+
+    border:
+        2px solid #ffd966 !important;
+
+    color: #7f6000 !important;
+
+}
+
+
+.bg-orange {
+
+    background-color: #fce4d6 !important;
+
+    border:
+        2px solid #f4b183 !important;
+
+    color: #c65911 !important;
+
+}
+
+
+.bg-red {
+
+    background-color: #f8cecc !important;
+
+    border:
+        2px solid #f19c99 !important;
+
+    color: #c00000 !important;
+
+}
+
+
+/* =================================================
+   HISTORY
+================================================= */
+
+.history-section {
+
+    margin-top: 30px;
+
+}
+
+
+.history-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 12px;
+
+}
+
+
+.history-header h3 {
+
+    color: #5c5470;
+
+    font-size: 17px;
+
+    font-weight: 500;
+
+}
+
+
+.refresh-btn {
+
+    border: none;
+
+    background-color: #d9ead3;
+
+    color: #4a5568;
+
+    padding: 8px 13px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+}
+
+
+.refresh-btn:hover {
+
+    transform: scale(1.03);
+
+}
+
+
+/* =================================================
+   TABLE
+================================================= */
+
+.table-container {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    border-radius: 14px;
+
+}
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    min-width: 650px;
+
+    background-color: #faf9fe;
+
+}
+
+
+thead {
+
+    background-color: #eee8ff;
+
+}
+
+
+th {
+
+    color: #5c5470;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    padding: 12px 8px;
+
+    text-align: center;
+
+}
+
+
+td {
+
+    color: #5c5470;
+
+    font-size: 13px;
+
+    padding: 11px 8px;
+
+    text-align: center;
+
+    border-top:
+        1px solid #eeeef5;
+
+}
+
+
+tbody tr:hover {
+
+    background-color: #f4f1ff;
+
+}
+
+
+/* Loading / Empty */
+
+.loading {
+
+    color: #a0a5b5;
+
+    padding: 20px;
+
+}
+
+
+/* =================================================
+   MOBILE
+================================================= */
+
+@media (max-width: 600px) {
+
+    .container {
+
+        width: 95%;
+
+        padding:
+            25px 18px;
+
+    }
+
+
+    .button-group {
+
+        flex-direction: column;
+
+    }
+
+
+    .history-header {
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+    }
+
+}
