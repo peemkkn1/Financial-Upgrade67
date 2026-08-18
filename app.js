@@ -9,7 +9,7 @@ const SUPABASE_URL =
 
 // ใส่ ANON PUBLIC KEY ของคุณตรงนี้
 const SUPABASE_ANON_KEY =
-    "ใส่_ANON_KEY_ของคุณตรงนี้";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFid3luYmNlenpsbmdrdXhmZHppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcwNTI5ODcsImV4cCI6MjEwMjYyODk4N30.mA9LbYIj1VShZ0pAns4L-hQhrzS3qO_RqucXTWILWYw";
 
 
 // สร้าง Supabase Client
